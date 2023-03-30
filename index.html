@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="about-me">
+        <div class="container">
+          <div class="image">
+            <img src="/my photo.PNG" alt="My Photo" id="photo" >
+          </div>
+          <div class="content">
+            <h1>Hi, I'm Jai Kumar Mishra</h1>
+            <p>I am a MERN stack web developer with experience in building modern and responsive web applications using React.js. My passion for coding and problem-solving drives me to continuously learn and improve my skills.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="skills">
+        <div class="container">
+          <h2>My Skills</h2>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </section>
+      
+      <section class="portfolio">
+        <div class="container">
+          <h2>My Portfolio</h2>
+          <!-- Add your portfolio projects here -->
+          <div class="project">
+            <img src="/lyrics player.JPG" alt="Project 1" class="port">
+            <h3>MUSIC PLAYER</h3>
+            <p> music player website built using HTML, CSS, and JavaScript. It allows users to play a playlist of songs and control the playback using play, pause, next, and previous buttons. The project is open-source</p>
+          </div>
+          <div class="project">
+            <img src="/upstore.JPG" alt="Project 2" class="port">
+            <h3>upStore site</h3>
+            <p>This is a simple e-commerce store website built with HTML, CSS, and JavaScript. It provides users with an intuitive interface for browsing and purchasing products from different categories. The website includes features such as a shopping cart, cart summary, and checkout process, making it easy for users to complete their purchases.</p>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="project">
+          <img src="/WHEATHER APP.JPG" alt="Project 3" class="port">
+          <h3>wheather detector</h3>
+        <p> The weather app is a simple, user-friendly web application built using React.js and the OpenWeatherMap API. It allows users to easily search for weather information for any city in the world, displaying the current temperature and weather description.</p>
+      </div>
+      </section>
+    </section>
+    <section class="portfolio">
+      <div class="project">
+        <img src="/chat.JPG" alt="Project 4" class="port">
+        <h3>CHIT-CHAT</h3>
+      <p> This project is a real-time chatting web application built using React.js, Node.js, and Socket.IO. It allows multiple users to send and receive messages in real-time, with a user-friendly interface and responsive design. The app is animated and features a simple user registration process.</p>
+    </div>
+    </section>
+  </section>
+  <section class="portfolio">
+    <div class="project">
+      <img src="/google project one.JPG" alt="Project 5" class="port">
+      <h3>CarGO</h3>
+    <p> This website is made by me and my team for google solution challenge 2023 .First, we have an AQI calculator that can help you understand the air quality in your area and how it affects your health. By entering your location and some basic information, the calculator will provide you with a real-time air quality index, which can help you make informed decisions about your activities and the precautions you need to take to protect your health.
+      Next, we have an ACH calculator that can help you understand the amount of fresh air that is being circulated through your home or building. By providing information on how to improve indoor air quality, such as increasing ventilation or using air purifiers, the calculator can help reduce exposure to harmful pollutants and improve health outcomes.
+      We also have a carbon emission calculator that can help you understand the carbon footprint of your daily activities, such as transportation, food consumption, and energy use. By providing this information, you can identify areas where you can reduce your carbon footprint, such as by taking public transportation, eating a plant-based diet, and using renewable energy sources.
+      Finally, we have a calculator that calculates the carbon consumption by a human body, which can help you understand the environmental impact of your food choices. By providing information on the carbon footprint of different foods, the calculator can encourage you to make more sustainable choices, such as choosing plant-based foods or foods that are locally sourced and in season.
+      To develop this website, I used HTML and CSS for the design, and JavaScript and React.js to make it responsive. For the backend, I used Node.js with the Express framework to create an API for data processing and storage. Additionally, I integrated Google Cloud Maps API and several other APIs to provide accurate and up-to-date information.
+      But the impact of this website can extend beyond individual actions. By providing access to the backend database, the government can use the data collected by the website to inform policy decisions and reduce pollution at a larger scale. For example, the carbon emission calculator can help the government identify the most significant sources of greenhouse gas emissions and develop policies to reduce them, such as incentives for electric vehicle adoption or increased investment in renewable energy. The AQI and ACH calculators can help the government identify areas where air quality is poor and develop strategies to improve it, such as improving public transportation or increasing green spaces in urban areas.
+      Overall, I hope that this website can help individuals take action to combat climate change and provide valuable data to the government to inform policy decisions and reduce pollution at a larger scale.
+      </p>
+  </div>
+  </section>
+    
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; Jai Kumar Mishra </p>
+    </footer>
+  </body>
+</html>
